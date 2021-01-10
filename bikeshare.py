@@ -200,7 +200,7 @@ def individual_data(df):
             end_data += 5
         else:
             break
-
+##Before ending loop##
 def main():
     while True:
         city, month, day = get_filters()
