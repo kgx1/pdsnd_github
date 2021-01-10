@@ -10,3 +10,5 @@ So that the user could easily retrieve through an interactive application inform
 ##Files##
 Files used
 bikeshare_2.py, chicago.csv, new_york_city.csv and washington.csv
+
+#Author: Kemal
