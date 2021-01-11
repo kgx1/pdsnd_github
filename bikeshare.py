@@ -1,7 +1,7 @@
 import time
 import pandas as pd
 import numpy as np
-##Comment Line1 City Data  ##
+##Comment Line1 City Data##
 CITY_DATA = {'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv'}
@@ -31,7 +31,7 @@ def check_input(input_str,input_type):
         except ValueError:
             print("Sorry, your input is wrong")
     return input_read
-
+##Before QUestion Parts##
 def get_filters():
     """
     Asks user to specify a city, month, and day to analyze.
