@@ -201,6 +201,7 @@ def individual_data(df):
         else:
             break
 ##Before ending loop##
+##Added 'please' mark on input##
 def main():
     while True:
         city, month, day = get_filters()
@@ -212,7 +213,7 @@ def main():
         trip_duration_stats(df)
         user_stats(df,city)
         individual_data(df)
-        restart = input('\nWould you like to restart? Enter yes or no.\n')
+        restart = input('\nWould you like to restart? Enter yes or no please\n')
         if restart.lower() != 'yes':
             break
             
