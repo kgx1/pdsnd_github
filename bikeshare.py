@@ -1,7 +1,7 @@
 import time
 import pandas as pd
 import numpy as np
-
+##Comment Line1 City Data  ##
 CITY_DATA = {'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv'}
@@ -200,7 +200,7 @@ def individual_data(df):
             end_data += 5
         else:
             break
-
+##Before ending loop##
 def main():
     while True:
         city, month, day = get_filters()
